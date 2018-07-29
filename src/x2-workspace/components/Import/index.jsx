@@ -2,9 +2,14 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 export default class Import extends React.PureComponent {
-  static propTypes = { bundleName: PropTypes.string.isRequired, componentName: PropTypes.string.isRequired };
+  static propTypes = {
+    bundleName: PropTypes.string.isRequired,
+    componentName: PropTypes.string
+  };
 
-  static defaultProps = {};
+  static defaultProps = {
+    componentName: 'default'
+  };
 
   state = { Component: null };
 
