@@ -4,6 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   context: path.resolve('./src'),
   entry: {
+    'x2-bootstrap': './x2-bootstrap/index.js',
     'x2-workspace': './x2-workspace/index.jsx'
   },
   externals: {
