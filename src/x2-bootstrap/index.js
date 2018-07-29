@@ -4,6 +4,9 @@ SystemJS.config({
   baseURL: '/assets',
   map: {
     // From CDN
+    antd: 'cdn/antd.js',
+    'babel-polyfill': 'cdn/babel-polyfill.js',
+    classnames: 'cdn/classnames.js',
     'prop-types': 'cdn/prop-types.js',
     react: 'cdn/react.development.js',
     'react-dom': 'cdn/react-dom.development.js',

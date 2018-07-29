@@ -7,6 +7,9 @@ module.exports = {
     'x2-workspace': './x2-workspace/index.jsx'
   },
   externals: {
+    antd: 'antd',
+    'babel-polyfill': 'babel-polyfill',
+    classnames: 'classnames',
     'prop-types': 'prop-types',
     react: 'react',
     'react-dom': 'react-dom'
