@@ -8,7 +8,6 @@ module.exports = {
   },
   externals: {
     antd: 'antd',
-    'babel-polyfill': 'babel-polyfill',
     classnames: 'classnames',
     'prop-types': 'prop-types',
     react: 'react',
