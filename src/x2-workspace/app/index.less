@@ -1,0 +1,26 @@
+@import '../variables.less';
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.sider {
+  color: white;
+  background: @app-sider-bg;
+
+  :global .ant-layout-sider-trigger {
+    background: darken(@app-sider-bg, 25%);
+  }
+}
+
+.header {
+  height: @app-header-height;
+  color: @text-color;
+  background: @app-header-bg;
+}
+
+.content {
+  color: @text-color;
+  background: #f7faff;
+}
