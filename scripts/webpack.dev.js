@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 const config = require('./webpack.base');
 
@@ -8,5 +9,6 @@ config.devServer = {
   hot: true,
   port: 8088
 };
+config.plugins.push(new webpack.HotModuleReplacementPlugin());
 
 module.exports = config;

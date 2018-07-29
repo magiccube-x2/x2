@@ -1,5 +1,4 @@
 const path = require('path');
-const webpack = require('webpack');
 
 module.exports = {
   context: path.resolve('./src'),
@@ -77,7 +76,7 @@ module.exports = {
       }
     ]
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [],
   optimization: {
     splitChunks: {
       cacheGroups: {
