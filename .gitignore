@@ -10,3 +10,6 @@ dist
 
 # Dependency directories
 node_modules/
+
+# VSCode Settings
+.vscode
