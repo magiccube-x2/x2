@@ -1,7 +1,8 @@
 {
   "parser": "babel-eslint",
   "globals": {
-    "SystemJS": true
+    "SystemJS": true,
+    "x2_config": true
   },
   "env": {
     "browser": true
