@@ -1,9 +1,11 @@
 SystemJS.config({
   baseURL: '/assets',
   map: {
-    react: 'react.development.js',
-    'react-dom': 'react-dom.development.js',
+    // From CDN
+    react: 'cdn/react.development.js',
+    'react-dom': 'cdn/react-dom.development.js',
 
+    // From current project
     'x2-workspace': 'x2-workspace.js'
   }
 });
