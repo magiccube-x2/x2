@@ -1,1 +1,2 @@
-# x2
+# x2-workspace
+Workspace of X2 Helpdesk.
