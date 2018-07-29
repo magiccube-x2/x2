@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = {
   context: path.resolve('./src'),
   entry: {
-    'x2-workspace': './index.jsx'
+    'x2-workspace': './x2-workspace/index.jsx'
   },
   externals: {
     react: 'react',
